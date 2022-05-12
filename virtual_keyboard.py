@@ -61,11 +61,11 @@ def countFingers(image, hand_landmarks, handNo=0):
  
         if totalFingers == 1:
             if  finger_tip_x < width-400:
-                print("Regresar")
+                print("izquierda")
                 keyboard.press(Key.left)
 
             if finger_tip_x > width-50:
-                print("Adelantar")
+                print("derecha")
                 keyboard.press(Key.right)
         
         
